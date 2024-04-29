@@ -163,32 +163,40 @@
 //   RESPOSTA:
 
 // Filme filme1 = new Filme("O Poderoso Chefão", "Drama", 175);
-// Console.WriteLine("O nome do filme: " + filme1.Titulo);
+// Console.WriteLine("Nome do filme: " + filme1.Titulo);
 // Console.WriteLine("Gênero do filme: " + filme1.Genero);
 // Console.WriteLine("Duração do filme: " + filme1.Duracao + " Minutos");
-// filme1.Disponivel = "Disponivel";
 // filme1.Estado();
 
-// filme1.Locacao() = "Alugar"
+// filme1.Locacao();
+// filme1.Estado();
 
 // Console.WriteLine();
-// Console.WriteLine();
 
-Filme filme1 = new Filme("O Poderoso Chefão", "Drama", 175);
-Console.WriteLine("Nome do filme: " + filme1.Titulo);
-Console.WriteLine("Gênero do filme: " + filme1.Genero);
-Console.WriteLine("Duração do filme: " + filme1.Duracao + " Minutos");
-filme1.Estado();
+// Console.WriteLine("Nome do Filme: " + filme1.Titulo);
+// filme1.Devolucao();
 
-filme1.Locacao();
-filme1.Estado();
-
-Console.WriteLine();
-
-Console.WriteLine("Nome do Filme: " + filme1.Titulo);
-filme1.Devolucao();
-
-filme1.Estado();
+// filme1.Estado();
 
 
+//*************************************************************************************************************************
+//*************************************************************************************************************************
+//*************************************************************************************************************************
 
+// QUESTÃO 6
+// Implemente uma hierarquia de classes para representar diferentes tipos de veículos, como carros, motos e bicicletas. Cada classe deve herdar da classebase Veiculo. Adicione atributos específicos para cada tipo de veículo, como número de portas para carros, cilindrada para motos e número de marchas para bicicletas.
+
+//   RESPOSTA:
+
+Veiculo veiculo = new Veiculo();
+Carro1 carro = new Carro1();
+Moto1 moto = new Moto1();
+Bicicleta bicicleta = new Bicicleta();
+
+carro.QuantPorta = 4;
+moto.Cilidrada = 160;
+bicicleta.QuantMarcha = 7;
+
+Console.WriteLine("Carro tem: " + carro.QuantPorta + " Porta(s)");
+Console.WriteLine("A moto tem: " + moto.Cilidrada + " Cilidradas");
+Console.WriteLine("a Bicicleta tem: " + carro.QuantPorta + " Marchas");
