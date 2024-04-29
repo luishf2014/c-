@@ -12,12 +12,12 @@ class Produto
     }
 
 
-    public void Adicionar(int quantidade)
+    public void Adicionar(int quant)
     {
-        if (quantidade > 0)
+        if (quant > 0)
         {
-            QuantidadeEmEstoque += quantidade;
-            Console.WriteLine($"Adicionado {quantidade} unidades ao produto {Nome}.");
+            QuantidadeEmEstoque += quant;
+            Console.WriteLine($"Adicionado {quant} unidades ao produto {Nome}.");
             Console.WriteLine($"Agora tem {QuantidadeEmEstoque} unidades em estoque.");
         }
         else
@@ -26,12 +26,12 @@ class Produto
         }
     }
 
-    public void Remover(int quantidade)
+    public void Remover(int quant)
     {
-        if (quantidade > 0 && QuantidadeEmEstoque >= quantidade)
+        if (quant > 0 && QuantidadeEmEstoque >= quant)
         {
-            QuantidadeEmEstoque -= quantidade;
-             Console.WriteLine($"Adicionado {quantidade} unidades ao produto {Nome}.");
+            QuantidadeEmEstoque -= quant;
+             Console.WriteLine($"Adicionado {quant} unidades ao produto {Nome}.");
             Console.WriteLine($"Agora tem {QuantidadeEmEstoque} unidades em estoque.");
         }
         else

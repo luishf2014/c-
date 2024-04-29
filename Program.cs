@@ -158,6 +158,37 @@
 
 
 // QUESTÃO 5
-// Implemente um sistema para uma locadora de filmes. Crie uma classe Filmecom os seguintes atributos: Titulo, Genero, Duracao, Disponivel (indicando se ofilme está disponível para locação). Implemente métodos para registrar alocação de um filme, registrar a devolução de um filme e verificar se um filmeestá disponível para locação. Não há necessidade de implementar rotinas debancos de dados
+// Implemente um sistema para uma locadora de filmes. Crie uma classe Filme com os seguintes atributos: Titulo, Genero, Duracao, Disponivel (indicando se o filme está disponível para locação). Implemente métodos para registrar a locação de um filme, registrar a devolução de um filme e verificar se um filmeestá disponível para locação. Não há necessidade de implementar rotinas de bancos de dados
 
 //   RESPOSTA:
+
+// Filme filme1 = new Filme("O Poderoso Chefão", "Drama", 175);
+// Console.WriteLine("O nome do filme: " + filme1.Titulo);
+// Console.WriteLine("Gênero do filme: " + filme1.Genero);
+// Console.WriteLine("Duração do filme: " + filme1.Duracao + " Minutos");
+// filme1.Disponivel = "Disponivel";
+// filme1.Estado();
+
+// filme1.Locacao() = "Alugar"
+
+// Console.WriteLine();
+// Console.WriteLine();
+
+Filme filme1 = new Filme("O Poderoso Chefão", "Drama", 175);
+Console.WriteLine("Nome do filme: " + filme1.Titulo);
+Console.WriteLine("Gênero do filme: " + filme1.Genero);
+Console.WriteLine("Duração do filme: " + filme1.Duracao + " Minutos");
+filme1.Estado();
+
+filme1.Locacao();
+filme1.Estado();
+
+Console.WriteLine();
+
+Console.WriteLine("Nome do Filme: " + filme1.Titulo);
+filme1.Devolucao();
+
+filme1.Estado();
+
+
+
