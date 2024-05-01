@@ -4,12 +4,7 @@
 
 
 //   RESPOSTA:
-// A herança é basicamente como o próprio nome já diz, possibilita criar outras classes apartir das que já existem, 
-// as classes "filhas" ou subclasse herdam elementos/atributos e métodos da classe "mãe"/superclasse, evitando assim duplicação de código.
-// Como podemos ver no exemplo prático, a herança funciona assim, temos a superclasse chamada de "Pessoa" 
-// e nela temos todos os atributos que teriamos nas outras classe, como por exemplo, nome, salario, idade e cargo, 
-// com a implementação do símbolo : no inicio da class ("class Atendente : Funcionario" e
-// "class Gerente : Funcionario") as subclasse tem acesso a esse atributos que estão na superclasse.
+// A herança é basicamente como o próprio nome já diz, possibilita criar outras classes apartir das que já existem, as classes "filhas" ou subclasse herdam elementos/atributos e métodos da classe "mãe"/superclasse, evitando assim duplicação de código. Como podemos ver no exemplo prático, a herança funciona assim, temos a superclasse chamada de "Pessoa" e nela temos todos os atributos que teriamos nas outras classe, como por exemplo, nome, salario, idade e cargo, com a implementação do símbolo : no inicio da class ("class Atendente : Funcionario" e "class Gerente : Funcionario") as subclasse tem acesso a esse atributos que estão na superclasse.
 
 // Console.WriteLine("Gerente");
 
@@ -52,14 +47,11 @@
 
 
 // QUESTÃO 2
-// O que são interfaces em orientação a objetos e qual é a sua importância naconstrução de sistemas em C#? 
-// Dê um exemplo de como uma interface podeser utilizada para garantir a interoperabilidade entre diferentes classes em um sistema de pagamento online.
+// O que são interfaces em orientação a objetos e qual é a sua importância naconstrução de sistemas em C#? Dê um exemplo de como uma interface podeser utilizada para garantir a interoperabilidade entre diferentes classes em um sistema de pagamento online.
 
 
 //   RESPOSTA:
-// A interface é um conjunto de métodos sem apresentar lógica apenas as assinaturas dos métodos e, seu uso é de extrema importâcia, pois possibilita 
-// o polimorfismo, onde as classes são tratadas iguas, e possibilita a sua reutilização em outras classe diferentes. 
-// E sua implementação é feita atravéz do símbolo : no inicio da class igual a da herança.
+// A interface é um conjunto de métodos sem apresentar lógica apenas as assinaturas dos métodos e, seu uso é de extrema importâcia, pois possibilita o polimorfismo, onde as classes são tratadas iguas, e possibilita a sua reutilização em outras classe diferentes. E sua implementação é feita atravéz do símbolo : no inicio da class igual a da herança.
 
 
 // Inter inter = new Inter();
@@ -87,9 +79,9 @@
 // Diferencie sobrecarga e sobreposição (ou sobrescrita) e forneça exemplos decada um em C#.
 
 //   RESPOSTA:
-//  sobrecarga é quando aplicamos varios métodos com o mesmo nome, porem com parâmetros diferentes. Já a sobrescrever é usado com o mesmo conceito da herança, onde as classes subclasses sobrescreve o método da classe superclasse, com os mesmos parâmetros.
+//  sobrecarga é quando aplicamos varios métodos com o mesmo nome, porem com parâmetros diferentes. Já a sobrescrever é usado com o mesmo conceito da herança, onde as classes subclasses sobrescreve o método da classe superclasse, com os mesmos parâmetros. em geral, a sobrecarga é onde temos vários métodos com o mesmo nome em uma classe, mas todos com assinaturas diferentes, enquanto na sobreposição é apenas substituir a implementação de um método em uma classe derivada por uma implementação específica dessa classe derivada.
 
-// Exemplo de sobrescrever
+// Exemplo de sobrescrever  
 // Caminhonete caminhonete = new Caminhonete();
 // caminhonete.Som();
 
