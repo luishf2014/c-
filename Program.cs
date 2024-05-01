@@ -188,15 +188,87 @@
 
 //   RESPOSTA:
 
-Veiculo veiculo = new Veiculo();
-Carro1 carro = new Carro1();
-Moto1 moto = new Moto1();
-Bicicleta bicicleta = new Bicicleta();
+// Veiculo veiculo = new Veiculo();
+// Carro1 carro = new Carro1();
+// Moto1 moto = new Moto1();
+// Bicicleta bicicleta = new Bicicleta();
 
-carro.QuantPorta = 4;
-moto.Cilidrada = 160;
-bicicleta.QuantMarcha = 7;
+// carro.QuantPorta = 4;
+// moto.Cilidrada = 160;
+// bicicleta.QuantMarcha = 7;
 
-Console.WriteLine("Carro tem: " + carro.QuantPorta + " Porta(s)");
-Console.WriteLine("A moto tem: " + moto.Cilidrada + " Cilidradas");
-Console.WriteLine("a Bicicleta tem: " + carro.QuantPorta + " Marchas");
+// Console.WriteLine("Carro tem: " + carro.QuantPorta + " Porta(s)");
+// Console.WriteLine("A moto tem: " + moto.Cilidrada + " Cilidradas");
+// Console.WriteLine("a Bicicleta tem: " + carro.QuantPorta + " Marchas");
+
+//*************************************************************************************************************************
+//*************************************************************************************************************************
+//*************************************************************************************************************************
+
+// QUESTÃO 7
+// Desenvolva um sistema de gerenciamento de contas bancárias com diferentes tipos de contas, como conta corrente, conta poupança e conta empresarial. Utilize herança para representar a relação entre as classes de contas e implemente métodos específicos para cada tipo de conta, como calcular juros para contas poupança e verificar saldo mínimo para contas empresariais.
+
+//   RESPOSTA:
+
+// Contas conta = new Contas();
+// ContaCorrente contaCorrente = new ContaCorrente();
+// ContaPoupança contaPoupança = new ContaPoupança();
+// ContaEmpresarial contaEmpresarial1 = new ContaEmpresarial();
+// ContaEmpresarial contaEmpresarial2 = new ContaEmpresarial();
+
+// contaPoupança.NumConta = 1534;
+// contaPoupança.Saldo = 1500;
+
+// Console.WriteLine("Conta Poupança");
+// Console.WriteLine("Número da conta: " + contaPoupança.NumConta);
+// Console.WriteLine("Saldo da conta: " + contaPoupança.Saldo);
+
+// contaPoupança.CalcJuros();
+
+// Console.WriteLine();
+// Console.WriteLine("****************************************");
+// Console.WriteLine();
+
+// contaEmpresarial1.NumConta = 2305;
+// contaEmpresarial1.Saldo = 15000;
+
+// Console.WriteLine("Conta Empresarial 1");
+// Console.WriteLine("Número da conta: " + contaEmpresarial1.NumConta);
+// Console.WriteLine("Saldo Mínimo: " + contaEmpresarial2.saldoMin);
+// Console.WriteLine("Saldo da conta: " + contaEmpresarial1.Saldo);
+
+// contaEmpresarial1.VerificarSaldo();
+
+// Console.WriteLine();
+// Console.WriteLine("****************************************");
+// Console.WriteLine();
+
+// contaEmpresarial2.NumConta = 1010;
+// contaEmpresarial2.Saldo = 1000;
+
+// Console.WriteLine("Conta Empresarial 2");
+// Console.WriteLine("Número da conta: " + contaEmpresarial2.NumConta);
+// Console.WriteLine("Saldo Mínimo: " + contaEmpresarial2.saldoMin);
+// Console.WriteLine("Saldo da conta: " + contaEmpresarial2.Saldo);
+
+// contaEmpresarial2.VerificarSaldo();
+
+// Console.WriteLine();
+// Console.WriteLine("****************************************");
+// Console.WriteLine();
+
+// contaCorrente.NumConta = 1234;
+// contaCorrente.Saldo = 1500;
+
+// Console.WriteLine("Conta Corrente");
+// Console.WriteLine("Número da conta: " + contaPoupança.NumConta);
+// Console.WriteLine("Saldo da conta: " + contaPoupança.Saldo);
+
+//*************************************************************************************************************************
+//*************************************************************************************************************************
+//*************************************************************************************************************************
+
+// QUESTÃO 8
+// 
+
+//   RESPOSTA:
