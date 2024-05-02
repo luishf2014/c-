@@ -261,6 +261,60 @@
 //*************************************************************************************************************************
 
 // QUESTÃO 8
-// 
+// Crie uma aplicação para uma escola de idiomas que oferece diferentes tipos de cursos, como inglês, espanhol e francês. Utilize herança para representar a relação entre as classes de cursos e implemente métodos específicos para cada tipo de curso, como calcular a média de notas para cursos avançados e gerar certificados para cursos concluídos.
 
 //   RESPOSTA:
+// Curso curso1 = new Curso ();
+// Frances frances = new Frances();
+
+// curso1.Nome = "Jorge";
+// curso1.Nota1 = 10;
+// curso1.Nota2 = 10;
+// curso1.Nota3 = 10;
+
+// Console.WriteLine("Nome: " + curso1.Nome);
+// Console.WriteLine("Nota 1: " + curso1.Nota1);
+// Console.WriteLine("Nota 2: " + curso1.Nota2);
+// Console.WriteLine("Nota 3: " + curso1.Nota3);
+
+// curso1.Media(curso1.Nota1, curso1.Nota2, curso1.Nota3);
+// frances.Certificado(curso1.Nome);
+
+// Console.WriteLine();
+// Console.WriteLine("**********************");
+// Console.WriteLine();
+
+// Curso curso2 = new Curso ();
+// Ingles ingles = new Ingles();
+
+// curso2.Nome = "Ana";
+// curso2.Nota1 = 10;
+// curso2.Nota2 = 10;
+// curso2.Nota3 = 10;
+
+// Console.WriteLine("Nome: " + curso2.Nome);
+// Console.WriteLine("Nota 1: " + curso2.Nota1);
+// Console.WriteLine("Nota 2: " + curso2.Nota2);
+// Console.WriteLine("Nota 3: " + curso2.Nota3);
+// curso2.Media(curso2.Nota1, curso2.Nota2, curso2.Nota3);
+// ingles.Certificado(curso2.Nome);
+
+// Console.WriteLine();
+// Console.WriteLine("*****************************");
+// Console.WriteLine();
+
+// Curso curso3 = new Curso ();
+// Espanhol espanhol = new Espanhol();
+
+// curso3.Nome = "Fred";
+// curso3.Nota1 = 10;
+// curso3.Nota2 = 10;
+// curso3.Nota3 = 10;
+
+// Console.WriteLine("Nome: " + curso3.Nome);
+// Console.WriteLine("Nota 1: " + curso3.Nota1);
+// Console.WriteLine("Nota 2: " + curso3.Nota2);
+// Console.WriteLine("Nota 3: " + curso3.Nota3);
+
+// curso3.Media(curso3.Nota1, curso3.Nota2, curso3.Nota3);
+// espanhol.Certificado(curso3.Nome);
