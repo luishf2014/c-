@@ -327,28 +327,28 @@
 // Desenvolva um sistema de processamento de pagamentos com diferentes métodos de pagamento, como cartão de crédito, boleto bancário e transferência bancária. Crie uma interface IMetodoPagamento com métodos para realizar o pagamento e verificar o status do pagamento. Implemente classes para cada método de pagamento que herdem dessa interface e forneça a lógica específica para cada método de pagamento.
 
 //   RESPOSTA:
-Console.WriteLine("**Cartão de Crédito**");
-CartaoCredito pagamento1 = new CartaoCredito("123456", "12/25", "123"); 
-pagamento1.Realizar(789.80);
-Console.WriteLine(pagamento1.Verificar());
+// Console.WriteLine("**Cartão de Crédito**");
+// CartaoCredito pagamento1 = new CartaoCredito("123456", "12/25", "123"); 
+// pagamento1.Realizar(789.80);
+// Console.WriteLine(pagamento1.Verificar());
 
-Console.WriteLine();
-Console.WriteLine("*************************************");
-Console.WriteLine();
+// Console.WriteLine();
+// Console.WriteLine("*************************************");
+// Console.WriteLine();
 
-Console.WriteLine("**Boleto**");
-Boleto pagamento2 = new Boleto("7144390");
-pagamento2.Realizar(1200);
-Console.WriteLine(pagamento2.Verificar());
+// Console.WriteLine("**Boleto**");
+// Boleto pagamento2 = new Boleto("7144390");
+// pagamento2.Realizar(1200);
+// Console.WriteLine(pagamento2.Verificar());
 
-Console.WriteLine();
-Console.WriteLine("************************************");
-Console.WriteLine();
+// Console.WriteLine();
+// Console.WriteLine("************************************");
+// Console.WriteLine();
 
-Console.WriteLine("**Transferencia Bancária**");
-TransferenciaBancaria pagamento3 = new TransferenciaBancaria("Banco: Santander", "1502");
-pagamento3.Realizar(500);
-Console.WriteLine(pagamento3.Verificar());
+// Console.WriteLine("**Transferencia Bancária**");
+// TransferenciaBancaria pagamento3 = new TransferenciaBancaria("Banco: Santander", "1502");
+// pagamento3.Realizar(500);
+// Console.WriteLine(pagamento3.Verificar());
 
 
 //*************************************************************************************************************************
@@ -359,3 +359,4 @@ Console.WriteLine(pagamento3.Verificar());
 // Projete um sistema de reservas de voos para uma companhia aérea. Crie uma interface IReserva com métodos para reservar um voo, cancelar uma reserva e verificar o status da reserva. Implemente classes para diferentes tipos de reservas, como reserva de voo regular, reserva de voo com upgrade de classe e reserva de voo para grupos grandes. Utilize a interface para garantir a interoperabilidade entre os diferentes tipos de reservas
 
 //   RESPOSTA:
+
