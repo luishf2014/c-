@@ -318,3 +318,44 @@
 
 // curso3.Media(curso3.Nota1, curso3.Nota2, curso3.Nota3);
 // espanhol.Certificado(curso3.Nome);
+
+//*************************************************************************************************************************
+//*************************************************************************************************************************
+//*************************************************************************************************************************
+
+// QUESTÃO 9
+// Desenvolva um sistema de processamento de pagamentos com diferentes métodos de pagamento, como cartão de crédito, boleto bancário e transferência bancária. Crie uma interface IMetodoPagamento com métodos para realizar o pagamento e verificar o status do pagamento. Implemente classes para cada método de pagamento que herdem dessa interface e forneça a lógica específica para cada método de pagamento.
+
+//   RESPOSTA:
+Console.WriteLine("**Cartão de Crédito**");
+IMetodoPagamento pagamento1 = new CartaoCredito("123456", "12/25", "123"); 
+pagamento1.Realizar(789.80);
+Console.WriteLine(pagamento1.Verificar());
+
+Console.WriteLine();
+Console.WriteLine("*************************************");
+Console.WriteLine();
+
+Console.WriteLine("**Boleto**");
+IMetodoPagamento pagamento2 = new Boleto("7144390");
+pagamento2.Realizar(1200);
+Console.WriteLine(pagamento2.Verificar());
+
+Console.WriteLine();
+Console.WriteLine("************************************");
+Console.WriteLine();
+
+Console.WriteLine("**Transferencia Bancária**");
+IMetodoPagamento pagamento3 = new TransferenciaBancaria("Banco: Santander", "1502");
+pagamento3.Realizar(500);
+Console.WriteLine(pagamento3.Verificar());
+
+
+//*************************************************************************************************************************
+//*************************************************************************************************************************
+//*************************************************************************************************************************
+
+// QUESTÃO 10
+// 
+
+//   RESPOSTA:
